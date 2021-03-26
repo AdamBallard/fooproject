@@ -41,7 +41,7 @@ pipeline {
                                   outputFileName      : '**/output.xml',
                                   reportFileName      : '**/report.html',
                                   logFileName         : '**/log.html',
-                                  disableArchiveOutput: false,
+                                  disableArchiveOutput : false,
                                   passThreshold       : 50,
                                   unstableThreshold   : 40,
                                   otherFiles          : "**/*.png,**/*.jpg",
